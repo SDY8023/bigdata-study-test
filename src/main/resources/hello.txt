@@ -1,0 +1,8 @@
+hello world
+hello hadoop
+hello java
+hello scala
+hello python
+how are you
+fine thank you
+and you
