@@ -1,4 +1,4 @@
-package com.atguigu;
+package com.atguigu.tableApi;
 
 import com.atguigu.beans.SenorReading;
 import org.apache.flink.api.common.functions.MapFunction;
@@ -15,7 +15,7 @@ import org.apache.flink.table.api.java.StreamTableEnvironment;
  * @Date: 21:51 2022/2/23
  * @Modified By:
  **/
-public class tableApi {
+public class TableTest1 {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         DataStreamSource<String> dataStream = env.readTextFile("D:\\IDEA\\DaiMa\\bigdata-study-test\\src\\main\\resources\\sensor.txt");
