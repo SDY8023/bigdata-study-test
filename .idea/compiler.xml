@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FlinkTest2" />
         <module name="bigdata-study-test" />
+        <module name="FlinkTest2" />
+        <module name="FlinkTest" />
       </profile>
     </annotationProcessing>
   </component>
