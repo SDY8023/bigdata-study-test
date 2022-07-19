@@ -76,7 +76,7 @@ public class TableTest4 {
     }
 
     /**
-     * 实现自定义的ScalarFunction
+     * 实现自定义的ScalarFunction111111111
      */
     public static class testHashCode extends ScalarFunction{
         private int factor = 13;
